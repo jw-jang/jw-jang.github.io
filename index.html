@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, intial scale=1.0">
+		<title>Jungwon Jang Portfolio Website</title>
+		<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+        <!-- update later -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+        <header>
+            <div class="logo">
+                <!-- <img src="img/devjane.png" alt=""> -->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+		<!-- Intro -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				<strong>Jungwon Jang</strong>'s Portfolio           
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">student software engineer</p>
+		</section>
+		
+
+		<!-- About me -->
+		<section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Student software engineer at Vanderbilt University</p>
+
+			<div class="about-me__body">
+               <p>I am a Vanderbilt University undergraduate studying Engineering Science with a Computer Science concentration.</p>
+               <p></p>
+           </div>
+           
+           <img src="img/dev-jane-01.jpg" alt="a picture of Jungwon Jang" class="about-me__img">
+        </section>
+
+		<!-- My Work -->
+		<section class="my work" id="work">
+			<h2 class="section__title">My work</h2>
+			<p class="section__subtitle">Some coding work of mine</p>
+
+			<div class="posts">
+				<article>
+					<h3><a href="portfolio-item-one.html">Gravitational simulation<br />
+					</a></h3>
+					<a href="portfolio-item-one.html" class="portfolio__item"></a>
+					<p>A project based on the concept of Singleton. C++</p>
+					<ul class="actions special">
+						<li><a href="portfolio-item-one.html" class="button">Full Story</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<h3><a href="portfolio-item-two.html">Digital Guitar Player<br />
+					</a></h3>
+					<a href="portfolio-item-two.html" class="portfolio__item"></a>
+					<p>Used Carplus-Strong algorithm to replicate guitar string sounds. C++</p>
+					<ul class="actions special">
+						<li><a href="portfolio-item-two.html" class="button">Full Story</a></li>
+					</ul>
+				</article>
+
+				<!-- <article>
+					<h3><a href="portfolio-item-three.html">Project 3<br />
+					</a></h3>
+					<a href="portfolio-item-three.html" class="portfolio__item"></a>
+					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<ul class="actions special">
+						<li><a href="portfolio-item-three.html" class="button">Full Story</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<h3><a href="portfolio-item-four.html">Project 4
+					</a></h3>
+					<a href="portfolio-item-four.html" class="portfolio__item"></a>
+					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<ul class="actions special">
+						<li><a href="portfolio-item-four.html" class="button">Full Story</a></li>
+					</ul>
+				</article> -->
+                
+            </div>
+        </section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<a href="mailto:jungwon.jang@vanderbilt.edu" class="footer__link">jungwon.jang@vanderbilt.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/public-profile/in/jungwon-jane-jang-0965b886/?challengeId=AQEK_QcR96kKXQAAAXeUEzNhMfRBQm4cHKP3BafqPYrSl0GLHEA0D9Ky0VPXotKB2RELEKIvs4E9akoRumdPTTZozzv8e9Jlrg&submissionId=2112b2ec-31df-6216-8b0c-9e9f356d0d5e">
+                        <i class="fab fa-linkedin"></i>         
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/jane.jang.1485/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.wayup.com/profile/Jungwon-Jang-734aa639d7/">
+                        <i class="fas fa-pen-square"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+	</body>
+</html>
